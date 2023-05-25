@@ -1,0 +1,33 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__name {
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.form__input {
+  margin-bottom: 10px;
+  width: 200px;
+  outline: none;
+}
+
+.form__input:focus {
+  border-color: #66a1d8;
+  border-radius: 4px;
+}
+
+.form__btn {
+  width: 100px;
+  background-color: white;
+  border-radius: 4px;
+  transition: 500ms background-color linear;
+  cursor: pointer;
+}
+
+.form__btn:hover,
+.form__btn:focus {
+  background-color: #66a1d8;
+}

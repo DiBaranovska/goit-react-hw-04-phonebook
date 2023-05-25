@@ -1,0 +1,17 @@
+.contact_item {
+  padding: 10px;
+}
+
+.contact_btn {
+  margin-left: 10px;
+  width: 70px;
+  background-color: white;
+  border-radius: 4px;
+  transition: 500ms background-color linear;
+  cursor: pointer;
+}
+
+.contact_btn:hover,
+.contact_btn:focus {
+  background-color: #66a1d8;
+}

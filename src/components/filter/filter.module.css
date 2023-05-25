@@ -1,0 +1,20 @@
+.contacts_filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__name {
+  margin-bottom: 10px;
+  width: 200px;
+}
+
+.contacts__input {
+  margin-bottom: 10px;
+  width: 200px;
+  outline: none;
+}
+
+.contacts__input:focus {
+  border-color: #66a1d8;
+  border-radius: 4px;
+}
